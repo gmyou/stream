@@ -1,3 +1,5 @@
 package-lock.json
 node_modules/
 big.file
+big.file.gz
+.vscode/
