@@ -10,5 +10,5 @@ var splitstream = fs.createReadStream(file).pipe(split())
       console.log(line);
 
       splitstream.pause();
-      setTimeout(function (){ splitstream.resume() }, 500);
+      setTimeout(function (){ splitstream.resume() }, 1);
     })
